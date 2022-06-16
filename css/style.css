@@ -10,7 +10,7 @@ padding: 30px 0px;
 background-image: url(../img/1.jpg); 
 background-position: center center;
 max-width: 1920px;
-min-height: 720px;
+min-height: 800px;
 height: auto;
 background-repeat: no-repeat;
 background-size: cover;
@@ -53,12 +53,11 @@ background-size: cover;
 
 .img
 {
+    margin: 20px;
 max-width: 100%;
 max-height: 100%;
-min-width: 200px;
-min-height: 220px;
-width: 300px;
-height: 320px;
+width: 500px;
+height: 530px;
 background-size: cover;
 border-style: solid;
 border-width: 5px;
@@ -79,8 +78,8 @@ border-radius: 5px;
 
 p
 {
-    font-size: 30px;
-    font-weight: 200;
+    font-size: 40px;
+    font-weight: 500;
     color: black;
 }
 
@@ -89,10 +88,10 @@ p
     max-width: 100%;
     color: black;
     display:block;
-    width:250px;
+    width:350px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 40px;
     padding: 8px 16px;
     margin: 20px auto;
     text-decoration: none;
