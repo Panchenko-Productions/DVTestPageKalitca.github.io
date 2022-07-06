@@ -567,7 +567,7 @@ border: #9ed093 solid 1px;
     }   
 }
 
-@media (min-width:350px) and (max-width:600px) 
+@media (min-width:300px) and (max-width:600px) 
 {
     .header_row
     {
@@ -681,8 +681,13 @@ border: #9ed093 solid 1px;
 
     .about_img-block button
     {
-    font-size: 30px;
+    font-size: 25px;
     margin: 1%;
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
     }
 
     .contacts
@@ -693,13 +698,13 @@ border: #9ed093 solid 1px;
 
     .contacts h3
     {
-    font-size: 19px;
+    font-size: 15px;
     margin-top: 20px;
     }  
     
     .contacts p
     {
-    font-size: 13px;
+    font-size: 12px;
     }
 }
 
