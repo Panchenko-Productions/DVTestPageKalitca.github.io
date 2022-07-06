@@ -675,7 +675,7 @@ border: #9ed093 solid 1px;
 
     .about_img-block img
     {
-    width: 270px;
+    width: 210px;
     height: 200px;
     }
 
@@ -705,11 +705,6 @@ border: #9ed093 solid 1px;
     .contacts p
     {
     font-size: 12px;
-    }
-
-    body
-    {
-    overflow: hidden;
     }
 
 }
