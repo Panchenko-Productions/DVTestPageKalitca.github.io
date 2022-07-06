@@ -1,85 +1,124 @@
+<?php
+$countPictures = count(scandir('../img/myWorks')) - 2;
+?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
-
-    <link href="css/style.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=API_KEY" type="text/javascript"></script>
+    <title>LoftStyle</title>
 </head>
 <body>
-
+   
     <div class="header">
-        <div class="row p-3">
-            <div class="col-sm-1 col-md-2 col-lg-1 col-xl-2"></div>
-            <div class="col-xs-12 col-sm-2 col-md-2 col-lg-1"><img src="img/logo.png" class="logo" alt="Логотип"></div>
-            <div class="col-xs-12 col-sm-5 col-md-5 col-lg-3 d-flex align-content-center flex-wrap"><h3 class="text">Производство и монтаж ограждений в Хабаровске</h3></div>
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 text-center py-4"><h2 class="text">Телефон +7(999)999-99-99</h2></div>
-        </div>
-
-        <div class="row my-5">
-            <div class="col-sm-12 col-md-12 col-lg-12 ">
-                <h1 class="text text-center py-4">Оградите свое личное пространство</h1>
-                <h2 class="text text-center">Доверьте установку ограждений нашим специалистам</h2>
+            <div class="header_row">
+                <a href="#top" class="header_logo"></a>
+                <div class="header_container">
+                    <div class="header_menu">
+                        <ul class="menu_list">
+                            <li><a href="#about" class="menu_link">О нас</a></li>
+                            <li><a href="#request" class="menu_link">Оставить заявку</a></li>
+                            <li><a href="#map" class="menu_link">Где мы находимся</a></li>
+                        </ul>
+                </div>
+                <div class="header_number">
+                        <span><img class="icon" src="img/Icon.png" alt=""></span>
+                        <a href="tel:89241104422" class="link_number">89241104422</a>
+                </div>
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-12 align-content-center">
-                <a href="tel:+79999999999" class="button-link">Позвонить</a>
-            </div>
-        </div>
+                </div>
     </div>
-
-    <div class="block"></div>
-
     <div class="content">
-
-        <div class="description">
-            <div class="row gy-4">
-                <div class="col-sm-12 col-md-12 col-lg-12"><h1 class="text-center text">Установка различных видов ограждений под ключ</h1></div>  
-                <div class="col-sm-12 col-md-12 col-lg-12">
-                    <p class="text-center p-3">Любой человек старается обустроить место своего пребывания, будь то жилой дом, дача, место работы и т.д. Первое, о чем беспокоиться человек – безопасность. Поэтому так важно оградить своё личное пространство.</p>
-                    <p class="text-center p-3">Компания специализируется на производстве и монтаже заборов, ограждений, калиток для частных домов и объектов промышленного назначения. Производим установку распашных и откатных ворот. Занимаемся изготовлением металлоконструкций различной сложности.
-                        Наша компания поможет Вам подобрать наиболее подходящий вариант ограждения, произведет его быстро и качественно, установит на территории частного дома, дачного участка или комерческого объекта.</p>
-                </div>  
-            
-
-                <div class="col-sm-12 col-md-12 col-lg-4">
-                    <p style="text-align: center;">Калитки</p>
-                    <img src="https://hameleone.ru/wp-content/uploads/5/e/b/5eb311e4e6cf61334b4140e63da8962c.jpeg" class=" mx-auto d-block img" alt="Картинка">
+        <a name="top"></a>
+        <div class="Content_title">
+            <div class="title_text">
+                <h1>Изготовление и монтаж <br>Ограждение под ключ</h1>
+                <h3>В Хабаровске</h3>
+            </div>
+            <div class="title_call"><a href="tel:89241104422" class="call_link">Позвонить</a></div>
+        </div>
+        <div class="works">
+            <div class="works_text-block">
+                <p class="works_text">Мы работаем так, чтобы каждый клиент получил то, что ему нужно. Предлагаем выгодные цены на все виды изделий. 
+                    Комплектации под любой бюджет и под любые потребности клиента. 
+                    Если вы обращаетесь к нам за забором, навесом, воротами или другим изделием для загородного дома, то вы получите лучшее их воплощение.
+                </p>
+            </div>
+            <div class="works_image-block">
+                <div class="table-row">
+                    <div class="table-col">
+                        <p class="lable-img">С монолитным основанием</p>
+                        <img src="img/whatWeCan/1.jpg" alt="">
+                        <p class="lable-img">3D заборы</p>
+                        <img src="img/whatWeCan/2.jpg" alt="">
+                        <p class="lable-img">Заборы из сетки рабица</p>
+                        <img src="img/whatWeCan/3.jpg" alt="">
+                    </div>
+                    <div class="table-col">
+                        <p class="lable-img">Деревянные заборы</p>
+                        <img src="img/whatWeCan/4.jpg" alt="">
+                        <p class="lable-img">Заборы из евро-штакетника</p>
+                        <img src="img/whatWeCan/5.jpg" alt="">
+                        <p class="lable-img">Заборы из профнастила</p>
+                        <img src="img/whatWeCan/6.jpg" alt="">
+                    </div>
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-4">
-                    <p style="text-align: center;">Заборы</p>
-                    <img src="https://avatars.mds.yandex.net/i?id=3fa2c3435622a101a7794cc18296cc18-5886407-images-thumbs&n=13&exp=1" class=" mx-auto d-block img" alt="Картинка">
-                </div>
-                <div class="col-sm-12 col-md-12 col-lg-4">
-                    <p style="text-align: center;">Ворота</p>
-                    <img src="https://dor-m.ru/upload/iblock/fe7/Vorota-_14.jpg" class=" mx-auto d-block img" alt="Картинка">
+            </div>
+            <a name="request"></a>
+            <div class="request">
+                <div class="block-form">
+                    <p>Получить консультацию у спициалиста</p>
+                    <form action="" class="request_form">
+                        <input type="text" class="request_input" placeholder="Имя">
+                        <input type="text" class="request_input"  placeholder="Телефон">
+                        <button type="submit" class="request_button">Оставить заявку</button>
+                    </form>
+                    <a name="about"></a>
                 </div>
             </div>
         </div>
-
-        <div class="contacts">
-            <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-6 gy-4 text-center">
-                    <h1 class="text">Адрес и контакты</h1>
-                    <p>Адрес: Хабаровск, ул. Кубяка, дом 10А</p>
-                    <p>Телефон: +7(999)999-99-99</p>
-                </div>
-                <div class="col-sm-12 col-md-12 col-lg-5"><div id="map" class="mx-auto d-block"></div></div>
-                <div class="col-sm-1"></div>
+        <div class="about">
+            <div class="about_block">
+                <h1>О нас</h1>
+                <p>
+                    Осуществляем полный цикл работ – изготовление, доставку, монтаж заборов под ключ. Работая напрямую с производителями сырья и непосредственно изготавливая свою продукцию, мы предлагаем доступные цены на все виды продукции.
+                    Также мы устанавливаем и изготавливаем:
+                    -ворота распашные и откатные с системами автоматики и без (Doorhan)
+                    -Навесы
+                    -входные группы
+                    -металлические изделия любой сложности
+                </p>
+            </div>
+            <div class="about_img-block">
+                <button onclick="plusSlides(-1)">&#10094;</button>
+                <img src="img/myWorks/ (1).jpg" id="slider">
+                <button onclick="plusSlides(1)">&#10095;</button>
             </div>
         </div>
-        
-    </div>
-    <div class="footer">
-        <div class="row">
-            <div class="col-sm-12 col-md-12 col-lg-12 text-center align-content-center"><h5 style="color: white;">2022</h5></div>
+        <a name="map"></a>
+        <div class="map-block">
+            <h1>Где мы находимся</h1>
+            <div id="map" class="ya_map"></div>
+            <div class="contacts">
+                <div class="address">
+                    <h3>Хабаровск, ул. Автобусная.</h3>
+                    <p>Адрес</p>
+                </div>
+                <div class="number">
+                    <h3>89241104422</h3>
+                    <p>Номер телефона</p>
+                </div>
+            </div>
         </div>
     </div>
+    <div class="footer"></div>
     
-</body>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="js/Slider.js" type="text/javascript"></script>
 <script type="text/javascript">
 
 	ymaps.ready(init); 
@@ -107,4 +146,5 @@
 	};
 	
 </script>
+</body>
 </html>
