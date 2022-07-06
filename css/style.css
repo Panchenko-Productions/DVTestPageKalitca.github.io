@@ -675,7 +675,7 @@ border: #9ed093 solid 1px;
 
     .about_img-block img
     {
-    width: 370px;
+    width: 300px;
     height: 200px;
     }
 
@@ -706,5 +706,11 @@ border: #9ed093 solid 1px;
     {
     font-size: 12px;
     }
+
+    body
+    {
+        overflow: hidden;
+    }
+
 }
 
